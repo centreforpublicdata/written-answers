@@ -1,12 +1,10 @@
-Scripts and [Jupyter notebook](https://github.com/centreforpublicdata/written-answers/blob/main/Analyse%20unanswered%20written%20questions%20in%20the%20House%20of%20Commons.ipynb) to download and analyse unanswered Parliamentary written questions (PWQs) from [TheyWorkForYou](theyworkforyou.com).
-
-If you're interested in the analysis, you probably want to [read the notebook](https://github.com/centreforpublicdata/written-answers/blob/main/Analyse%20unanswered%20written%20questions%20in%20the%20House%20of%20Commons.ipynb).
+Scripts and Jupyter notebooks to download and analyse unanswered Parliamentary written questions (PWQs) from [TheyWorkForYou](theyworkforyou.com).
 
 **How to collect data**
 
-First collect the URLs of written answers on TheyWorkForYou - you may need to update the dates: 
+First collect the URLs of written answers from TheyWorkForYou:
 
-    python get_answer_urls.py
+    ./get_answer_urls.py --year 2023
 
 Then scrape the raw data:
 
